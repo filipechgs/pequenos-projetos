@@ -1,0 +1,8 @@
+Jogo de velha feito com a biblioteca d3
+
+Esse foi o meu primeiro projeto no processo de aprendizado de programação. Utilizei os conhecimentos básicos de JS e biblioteca d3,
+ aprendidos no app Grasshoper, para criar um jogo da velha que utilizasse cores no lugar de X e O. Optei por escrever o cógido em inglês, e os comentários
+ em portugês, com o intuito de praticar a escrita do código e ao mesmo tempo aumentar fluência na lingua em que tenho estudado programação, de modo que eu
+  aprenda e pratique duas coisas ao mesmo tempo.
+  
+Essa é a primeira versão, sem refatoramento.

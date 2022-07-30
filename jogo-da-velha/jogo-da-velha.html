@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Jogo da velha</h3>
+        <p>Cores no lugar de X e O</p>
+        <!-- <p>O quadrado que está embaixo, do lado esquerdo, indica a cor do jogador. Clique nos quadrados pretos para aplicar a cor indicada. 
+            Acompanhe o placar! O butão Revanche! inícia uma nova rodada. </p> -->
+        
+        <svg id="table" height=213px width=306px></svg>
+               
+        <p>Placar:</p>
+        <p><strong>Jogador(a) azul: <h3 id="azul"></h3></strong></p>
+        <p><strong>Jogador(a) vermelho(a): <h3 id="vermelho"></h3></strong></p>
+        <button onclick="nextRound()">Revanche!</button>
+
+        <script src="d3-package/dist/d3.min.js"></script>
+        <script src="jogo-da-velha.js"></script>
+</body>
+</html>
