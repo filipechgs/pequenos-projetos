@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo da velha 3D</title>
+        <meta charset="utf-8">
+                <style type="text/css">
+            svg {border: 0px solid;} 
+        </style>
+        
+    </head>
+
+    <body>     
+        <h3>Jogo da velha 3D</h3>
+             
+        <svg id="table" height=213px width=936px></svg>
+        
+                      
+        <p>Placar:</p>
+        <p><strong>Jogador(a) azul: <h3 id="azul"></h3></strong></p>
+        <p><strong>Jogador(a) vermelho(a): <h3 id="vermelho"></h3></strong></p>
+        <button onclick="nextRound()">Revanche!</button>
+        
+        <!-- <button onclick="machinePlay()">O programa joga</button> -->
+        
+        <p>O jogo da velha, só que mais difícil! Use a sua capacidade de abstração e imagine que cada tabuleiro é um de três andares de um cubo. 
+            Considere as possibilidades de formar sequências de três cores combinando quadrados de tabuleiros distentos.</p>
+        <p>O quadrado que está embaixo, do lado direito, indica a cor do jogador autal. Clique nos quadrados pretos para aplicar a cor indicada. 
+            Acompanhe o placar! O butão Revanche! inícia uma nova rodada.</p>
+
+        <script src="d3-package/dist/d3.min.js"></script>
+        <script src="jogo-da-velha-3d.js"></script>
+    </body>
+
+    
+
+</html>
